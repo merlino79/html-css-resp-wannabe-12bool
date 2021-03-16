@@ -21,7 +21,7 @@
 
 /* RESPONSIVE */
 
-@media all and (max-width: 767px) {
+@media all and (max-width:767 px) {
 	.col-xs-12 {
 		width: 100%;
 	}
