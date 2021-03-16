@@ -1,0 +1,30 @@
+.debug [class*="col-"]{
+  background-color: lightgray;
+  border: 1px solid black;
+  min-height: 30px;
+  margin-bottom: 20px;
+}
+
+.wrapper{
+  margin-top: 50px;
+  margin-bottom: 140px;
+}
+.wrapper-80{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box{
+  width: 80%;
+  min-height: 200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.green{
+  background-color: green;
+}
