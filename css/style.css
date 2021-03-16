@@ -1,8 +1,10 @@
-.debug [class*="col-"]{
-  background-color: lightgray;
-  border: 1px solid black;
-  min-height: 30px;
-  margin-bottom: 20px;
+
+  .debug [class*="col-"]{
+    background-color: rgb(240, 51, 51);
+    border: 1px solid black;
+    height: 100px;
+  }
+  
 }
 
 .wrapper{
