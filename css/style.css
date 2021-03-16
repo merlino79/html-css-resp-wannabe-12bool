@@ -72,13 +72,14 @@ img {
   clear: both;
 }
 
-@media all and (min-widht: 768px) and (max-whidht:991px) {
-  .conteiner{
+@media all and (max-width: 767px) {
+  .row{
     width: 100%;
-    
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-
+    margin-top: 50px;
   }
+
+  #lezioni.container, #why.grey{
+    background-color: rgb(242, 242, 205);
+  }
+
 }
