@@ -75,11 +75,38 @@ img {
 @media all and (max-width: 767px) {
   .row{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 0px;
+    
+    padding: 10px;
   }
 
   #lezioni.container, #why.grey{
     background-color: rgb(242, 242, 205);
   }
+  #why .container>.col-lg-12,
+  
+   {
+    margin-top: 80px;
+  }
 
+
+  img{ 
+    
+      height: 150px;
+     
+  }
+
+
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  
 }
